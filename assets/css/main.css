@@ -1,0 +1,157 @@
+body {
+    background: #E6DADA;
+    background: -webkit-linear-gradient(to right, #274046, #E6DADA);
+    background: linear-gradient(to right, #274046, #E6DADA);
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #593196;
+}
+
+th{
+    color: #593196;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contenedor-tareas {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 25px #555;
+    width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.form-login{
+    width: 700px;
+    position: relative;
+    top: 80px;
+    margin-top: 125px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 3px 3px 25px #555;
+    border-radius: 20px;
+
+}
+
+.form-login h2{
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #08ec00;
+
+}
+
+.contenedor-form-crear{
+        
+    width:1000px;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 15px;
+    box-shadow: 3px 3px 25px #555;
+    border-radius: 20px;
+}
+
+.contenedor-form-crear h1{
+
+    margin-bottom: 20px;
+}
+
+
+.tabla{
+    box-shadow: 3px 33px 25px #555;
+}
+
+
+.contenedor-editar-perfil{
+
+    width: 800px;
+    height: 520px;
+    background-color: #fff;
+    margin: 0 auto;
+    box-shadow: 3px 3px 25px #555;
+    border-radius: 20px;
+    padding: 15px;
+
+}
+
+.contenedor-editar-perfil h5{
+    border-bottom: 1px solid #593196 ;
+    color: #593196;
+}
+
+.contenedor-editar-perfil span{
+    display: block;
+    border-top: 1px solid #593196;
+    margin-top: 13px;
+}
+
+
+.contenedor-editar-perfil img{
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+   
+}
+
+
+.lista-tarea-admin{
+
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 3px 3px 25px #555;
+
+}
+
+.lista-tarea-admin table {
+    width: 100%;
+    font-size: 12px;
+}
+
+.lista-tarea-admin tr,td {
+    text-align: center;
+}
+
+.lista-tarea-admin td{
+    border-bottom: 1px solid #593196;
+    padding: 5px;
+}
+
+.modal-editar{
+
+    position: fixed;
+    width: 700px;
+    height: 500px;
+    background-color: gray;
+    bottom: 100px;
+    opacity: .9;
+    z-index: 50;
+    padding: 15px;
+    color: #fff;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+.tareas-descripcion td{
+
+    text-align: left;
+    border: 1px solid #ccc;
+
+}
+
+.tareas-descripcion th{
+    width: 20%;
+    border: 1px solid #ccc;
+
+}
